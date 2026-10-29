@@ -1,0 +1,13 @@
+{
+  "name": "compatsy-mcp",
+  "version": "0.1.0",
+  "description": "stdio bridge to the compatsy MCP server: what fits, with live prices (3D printing, home espresso).",
+  "type": "module",
+  "bin": { "compatsy-mcp": "bin/compatsy-mcp.js" },
+  "files": ["bin", "rules", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/elliot-rosen/compatsy-mcp.git" },
+  "homepage": "https://compatsy.com/",
+  "keywords": ["mcp", "model-context-protocol", "3d-printing", "espresso", "compatibility", "price-comparison"]
+}
